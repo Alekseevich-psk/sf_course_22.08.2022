@@ -86,7 +86,8 @@ img {
 }
 
 .footer__link {
-    display: block;
+    display: inline-block;
+    margin-left: 6px;
     padding: 6px 0;
     color: #fff;
     font-size: 20px;
@@ -96,6 +97,10 @@ img {
 
 .footer__link:hover {
     text-decoration: underline;
+}
+
+.footer__ico {
+   display: inline-block; 
 }
 
 /* footer */
